@@ -3,8 +3,5 @@ def click():
     
 def wellcome():
     print("New Screen")
-
 click()
 wellcome()
-
-    
