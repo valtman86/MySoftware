@@ -1,5 +1,11 @@
-stage('build') {
-    steps {
-        sh 'soft.py'
+pipeline {
+    agent any
+
+    stages {
+        stage('build') {
+            steps {
+                bat 'soft.py'
+                }
+            }
+        }
     }
-}
